@@ -18,6 +18,7 @@ yesBtn.addEventListener("click", () => {
 noBtn.addEventListener("click", () => {
   gif.src = "https://media.giphy.com/media/26ufcVAp3AiJJsrIs/giphy.gif"; // leaving gif
   message.textContent = "Oh no 😢 maybe next time...";
+  loveLetter.classList.add("hidden"); loveLetter.classList.remove("show");
   result.classList.remove("hidden");
 });
 function startCountdown() {
